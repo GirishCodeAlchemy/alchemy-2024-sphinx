@@ -10,6 +10,7 @@ Welcome to Alchemy-Sphinx's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   quickstart
    apidocs
 
 Indices and tables
