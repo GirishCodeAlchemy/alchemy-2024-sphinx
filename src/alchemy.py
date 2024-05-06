@@ -1,107 +1,98 @@
-class StarterPokemon:
+class StarterSuit:
 
     """
-    This class defined one of the starter Pokémon given to the player by
-    Professor Oak at the start of Pokémon Red, Green, Blue, FireRed, and
-    LeafGreen.
+    This class defines one of the starter Iron Man suits built by Tony Stark
+    at the beginning of the Iron Man movie series.
 
-    Actual Pokémon can be created by calling the specific classes defining the
-    starter Pokémon types. You can see more details about them at :ref:`starter`.
+    Actual suits can be created by calling the specific classes defining the
+    Iron Man suit types. You can see more details about them at :ref:`starter`.
     """
 
     def __init__(self):
         self.name = None
         self.evolution = None
         self.ability = None
-        self.pokemon_type = None
-        self.base_stats = dict()
+        self.suit_type = None
 
-    def who_is_that_pokemon(self):
+    def who_is_that_suit(self):
         """
-        Shows the Pokémon name and its evolution.
+        Shows the Iron Man suit name and its upgrades.
 
         Usage:
 
         .. doctest::
 
-           >>> import pokedex
-           >>> friend = pokedex.Bulbasaur()
-           >>> friend.who_is_that_pokemon()
-           This pokemon is Bulbasaur.
-           It will evolve into Ivysaur, Venusaur, Mega Venusaur, Gigantamax Venusaur.
+           >>> import ironman
+           >>> suit = ironman.MarkI()
+           >>> suit.who_is_that_suit()
+           This is Mark I Iron Man suit.
+           It will upgrade into Mark II, Mark III, Hulkbuster, and Infinity War Suit.
            >>>
         """
-        print(f"This pokemon is {self.name}.")
-        print(f"It will evolve into {', '.join(self.evolution)}.")
+        print(f"This is {self.name} Iron Man suit.")
+        print(f"It will upgrade into {', '.join(self.evolution)}.")
 
 
-class Bulbasaur(StarterPokemon):
+class MarkI(StarterSuit):
     """
-    Bulbasaur is a dual-type Grass/Poison Pokémon introduced in Generation I.
+    Mark I is the first Iron Man suit built by Tony Stark.
 
-    It evolves into Ivysaur starting at level 16, which evolves into Venusaur
-    starting at level 32.
+    It is the original Iron Man suit featured in the first Iron Man movie.
 
-    Along with :class:`Charmander` and :class:`Squirtle`, Bulbasaur is one of
-    three starter Pokémon of Kanto available at the beginning of Pokémon Red,
-    Green, Blue, FireRed, and LeafGreen.
+    Along with :class:`MarkII` and :class:`MarkIII`, Mark I is one of
+    three starter suits available at the beginning of Iron Man movie.
     """
 
     def __init__(self):
-        self.name = "Bulbasaur"
-        self.pokemon_type = {"grass", "poison"}
-        self.ability = "Overgrow"
-        self.evolution = ["Ivysaur",
-                          "Venusaur",
-                          "Mega Venusaur",
-                          "Gigantamax Venusaur"]
-
-
-class Charmander(StarterPokemon):
-    """
-    Charmander is a Fire-type Pokémon introduced in Generation I.
-
-    It evolves into Charmeleon starting at level 16, which evolves into
-    Charizard starting at level 36.
-
-    Along with :class:`Bulbasaur` and :class:`Squirtle`, Charmander is one of
-    three starter Pokémon of Kanto available at the beginning of Pokémon Red,
-    Green, Blue, FireRed, and LeafGreen.
-
-    .. note::
-
-       Charmeleon and Charizard are fire-type Pokémon, but Mega Charizard X and
-       Gigantamax Charizard are also Flying Pokémon, while Mega Charizard Y is a
-       Dragon-type Pokémon.
-    """
-
-    def __init__(self):
-        self.name = "Charmander"
-        self.pokemon_type = {"fire"}
-        self.ability = "Blaze"
+        self.name = "Mark I"
+        self.suit_type = {"armor"}
+        self.ability = "Armor"
         self.evolution = [
-            "Charmeleon",
-            "Charizard",
-            "Mega Charizard X",
-            "Mega Charizard Y",
-            "Gigantamax Charizard",
+            "Mark II",
+            "Mark III",
+            "Hulkbuster",
+            "Infinity War Suit",
         ]
 
 
-class Squirtle(StarterPokemon):
+class MarkII(StarterSuit):
     """
-    Squirtle is a Water-type Pokémon introduced in Generation I.
+    Mark II is an upgraded version of the Iron Man suit.
 
-    It evolves into Wartortle starting at level 16, which evolves into Blastoise
-    starting at level 36.
+    It features improved capabilities and enhancements compared to the
+    original Mark I suit.
 
-    Along with :class:`Bulbasaur` and :class:`Charmander`, Squirtle is one of
-    three starter Pokémon of Kanto available at the beginning of Pokémon Red,
-    Green, Blue, FireRed, and LeafGreen.
+    Along with :class:`MarkI` and :class:`MarkIII`, Mark II is one of
+    three starter suits available in the Iron Man movie.
     """
 
     def __init__(self):
-        self.name = "Squirtle"
-        self.pokemon_type = {"water"}
-        self.ability = "Torrent"
-        self.evolution = ["Wartortle"]
+        self.name = "Mark II"
+        self.suit_type = {"armor"}
+        self.ability = "Flight"
+        self.evolution = [
+            "Mark III",
+            "Hulkbuster",
+            "Infinity War Suit",
+        ]
+
+
+class MarkIII(StarterSuit):
+    """
+    Mark III is a highly advanced Iron Man suit.
+
+    It features state-of-the-art technology and weaponry, making it one of
+    the most powerful suits in Tony Stark's arsenal.
+
+    Along with :class:`MarkI` and :class:`MarkII`, Mark III is one of
+    three starter suits available in the Iron Man movie.
+    """
+
+    def __init__(self):
+        self.name = "Mark III"
+        self.suit_type = {"armor"}
+        self.ability = "Repulsor Beams"
+        self.evolution = [
+            "Hulkbuster",
+            "Infinity War Suit",
+        ]
