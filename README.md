@@ -31,3 +31,11 @@ Follow these steps to install and set up Sphinx for your project:
    This command will build the HTML files from your reStructuredText source files and place them in the specified output directory.
 
 With these steps completed, you'll have a fully functional Sphinx documentation setup for your project, allowing you to easily create and maintain documentation for your codebase.
+
+<img width="1127" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-sphinx/assets/143807663/bc7607f6-4ebd-4cfa-b369-f99a01ae4934">
+
+<img width="1160" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-sphinx/assets/143807663/aaa71bcb-7f27-4413-a724-7cf297561c83">
+
+****<img width="1113" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-sphinx/assets/143807663/7fd6cef4-c62b-4ab6-830e-1b3bcc71e1ab">
+
+
