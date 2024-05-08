@@ -36,6 +36,4 @@ With these steps completed, you'll have a fully functional Sphinx documentation 
 
 <img width="1160" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-sphinx/assets/143807663/aaa71bcb-7f27-4413-a724-7cf297561c83">
 
-****<img width="1113" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-sphinx/assets/143807663/7fd6cef4-c62b-4ab6-830e-1b3bcc71e1ab">
-
-
+<img width="1113" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-sphinx/assets/143807663/7fd6cef4-c62b-4ab6-830e-1b3bcc71e1ab">
