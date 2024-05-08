@@ -22,6 +22,7 @@ extensions = [ 'sphinx.ext.autodoc',
                'sphinx.ext.doctest',
                'sphinx.ext.intersphinx',
                'sphinx_design',
+               'sphinx_mdinclude'
               ]
 
 templates_path = ['_templates']

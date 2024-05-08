@@ -13,6 +13,8 @@ Welcome to Alchemy-Sphinx's documentation!
    quickstart
    apidocs
 
+.. mdinclude:: ../../README.md
+
 Indices and tables
 ==================
 
